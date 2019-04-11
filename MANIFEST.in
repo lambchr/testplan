@@ -1,4 +1,4 @@
-include *.js
-include *.css
-include *.html
+recursive-include testplan/web_ui *.js
+recursive-include testplan/web_ui *.css
+recursive-include testplan/web_ui *.html
 recursive-include testplan/web_ui *.json
