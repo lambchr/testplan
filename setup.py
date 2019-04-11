@@ -49,6 +49,8 @@ setup(name='Testplan',
   author_email='eti-testplan@morganstanley.com',
   url='https://github.com/Morgan-Stanley/testplan',
   packages=['testplan'] + find_packages(),
+  # package_data={'testplan': {'*.js', '*.css', '*.html', 'testplan/web_ui/*.json'}},
+  include_package_data=True,
   install_requires=REQUIRED,
   scripts=['install-testplan-ui']
  )
